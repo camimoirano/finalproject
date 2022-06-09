@@ -36,6 +36,12 @@ section sub {
   font-size: 1.6rem;
 }
 
+@media all and (max-width: 768px) {
+  section .imgtxt {
+    width: 100%;
+  }
+}
+
 @media all and (min-width: 992px) {
   section .contacto {
     margin-right: 700px;
