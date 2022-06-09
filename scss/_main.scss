@@ -1,0 +1,94 @@
+%navfooter{
+	background-color: #DBD3C6;
+	font-family: $fuente-txt;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+%p{
+	font-family: $fuente-txt;
+	font-size: $size-txt;
+}
+
+
+nav{
+	@extend %navfooter;
+}
+
+
+footer{
+	@extend %navfooter;
+	margin-top: 65px;
+	width: 100%;
+	position: absolute;
+	a{
+		text-decoration: none;
+		color: gray;
+		&:hover{
+			color:black;
+		}
+   }
+}
+
+section{
+	h1{
+		font-family: $fuente-t;
+		font-size: $size-t;
+	}
+	sub{
+		font-family: $fuente-txt;
+		font-size: 1.6rem;
+	}
+	p{
+		@extend %p;
+	}
+	div{
+		h5{
+			font-family: $fuente-t;
+			size: 1.4rem;
+		}
+		a{
+			@extend %p;
+		}
+		label{
+			@extend %p;
+		}
+		textarea{
+			@extend %p;
+		}
+		input{
+			@extend %p;
+		}
+		.producto{
+			h1{
+				font-size: 1.6rem;
+			}
+			img{
+				&:hover{
+					transform: scale(1.1);
+					box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+				}
+			}
+			@media all and (max-width: 768px){
+				display: flex;
+				flex-wrap: wrap;
+				width:50%;
+			}
+		}
+		.form-control{
+			&:hover{
+				background-color: pink;
+			}
+		}
+	}
+	button{
+		@extend %p;
+	}
+	.lista{
+		li{
+			@extend %p;
+		}
+	}
+}
+
+

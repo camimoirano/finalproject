@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Raleway:wght@300&display=swap");
+nav, footer {
+  background-color: #DBD3C6;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+section p, section div a, section div label, section div textarea, section div input, section button, section .lista li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 65px;
+  width: 100%;
+  position: absolute;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer a:hover {
+  color: black;
+}
+
+section h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2.2rem;
+}
+
+section sub {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+section div h5 {
+  font-family: "Libre Baskerville", serif;
+  size: 1.4rem;
+}
+
+section div .producto h1 {
+  font-size: 1.6rem;
+}
+
+section div .producto img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (max-width: 768px) {
+  section div .producto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
+
+section div .form-control:hover {
+  background-color: pink;
+}
