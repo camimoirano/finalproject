@@ -42,6 +42,11 @@ section{
 	p{
 		@extend %p;
 	}
+	.contacto{
+		@media all and (min-width: 992px){
+				margin-right: 700px;
+			}
+	}
 	div{
 		h5{
 			font-family: $fuente-t;

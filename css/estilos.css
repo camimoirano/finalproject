@@ -36,6 +36,12 @@ section sub {
   font-size: 1.6rem;
 }
 
+@media all and (min-width: 992px) {
+  section .contacto {
+    margin-right: 700px;
+  }
+}
+
 section div h5 {
   font-family: "Libre Baskerville", serif;
   size: 1.4rem;
