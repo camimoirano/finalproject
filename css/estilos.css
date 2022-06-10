@@ -65,6 +65,12 @@ section div .producto h1 {
   font-size: 1.6rem;
 }
 
+@media all and (max-width: 768px) {
+  section div .producto h1 {
+    font-size: 1.3rem;
+  }
+}
+
 section div .producto img:hover {
   transform: scale(1.1);
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);

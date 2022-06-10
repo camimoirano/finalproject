@@ -80,6 +80,9 @@ section{
 		.producto{
 			h1{
 				font-size: 1.6rem;
+				@media all and (max-width: 768px){
+					font-size: 1.3rem;
+				}
 			}
 			img{
 				&:hover{
