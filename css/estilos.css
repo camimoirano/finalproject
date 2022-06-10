@@ -11,6 +11,10 @@ section p, section div a, section div label, section div textarea, section div i
   font-size: 1.2rem;
 }
 
+nav .breadcrumb {
+  background-color: white;
+}
+
 footer {
   margin-top: 65px;
   width: 100%;

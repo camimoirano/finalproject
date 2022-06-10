@@ -13,6 +13,9 @@
 
 nav{
 	@extend %navfooter;
+	.breadcrumb{
+		background-color: white;
+	}
 }
 
 
